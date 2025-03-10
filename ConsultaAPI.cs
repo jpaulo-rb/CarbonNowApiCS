@@ -10,7 +10,7 @@ namespace CarbonNow {
 
         #region Configurações
         // Opcional: Ocultar apikey em algum arquivo e fazer a leitura dele.
-        private static readonly string _apiKey = "VupfF42jjvbfc0JYvswRXg";
+        private static readonly string _apiKey = "SUA API KEY AQUI";
 
         private static readonly HttpClient _client = new() {
             DefaultRequestHeaders = { Authorization = new AuthenticationHeaderValue("Bearer", _apiKey) }
